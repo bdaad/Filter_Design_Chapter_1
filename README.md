@@ -76,10 +76,11 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 ### 特徴
 
 #### 位相
-|  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
-| :-- | :-: | :-: |
-| 位相 | 線形になりにくい | 線形になりやすい |
 
+* IIR (Infinite Impulse Response)
+  * 線形になりにくい
+* FIR (Finite Impulse Response)
+  * 線形になりやすい
 
 今回の位相とは、周波数毎にどのくらい信号が遅延するかを示すものです。<br>
 線形ということは、どの周波数の信号であっても遅延が一定に近いということです。逆に線形でない時は、10Hz信号は1ms出力で遅延に対し、30Hz信号は10ms出力で遅延するように一定ではないです。実際に図3を見ればわかるとおり、FIRの遅延は一定であるのに対し、IIRは一定ではないです。
@@ -99,9 +100,12 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 #### 安定性
 
-|  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
-| :-: | :-: | :-: |
-| 安定性 | 設計次第 | 安定 |
+
+* IIR (Infinite Impulse Response)
+  * 設計次第
+* FIR (Finite Impulse Response)
+  * 安定
+
 
 これは、あまり理解できていないのですが、FIRは常に安定で、IIRの場合は|極|<1.0である時に安定するようです。図4のようなグラフを作成して、円内に収まれば安定、円外で不安定と判別できます。極を求める手順は図5の通りです。<br>
 
@@ -120,9 +124,13 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 #### Q(共振の鋭さ)
 
-|  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
-| :-: | :-: | :-: |
-| Q(共振の鋭さ) | 定義あり | 定義なし |
+
+
+* IIR (Infinite Impulse Response)
+  * 定義あり
+* FIR (Finite Impulse Response)
+  * 定義なし
+  
 
 Qとは、共振の鋭さを示すもので、Q値が高いとカットオフ周波数近傍が急になります。広範囲で見ると急さは同じです。IIRの時のみ考慮します。<br>
 図6は次数2のLPFです。Qが高いとカットオフ周波数付近で緩急が急になっていることがわかります。しかし、350Hzあたりでは、同じ値に収束しています。<br>
@@ -137,9 +145,10 @@ Qとは、共振の鋭さを示すもので、Q値が高いとカットオフ周
 
 #### 遷移域の狭さ
 
-|  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
-| :-: | :-: | :-: |
-| 遷移域の狭さ | 狭くできる(特徴あり) | 狭くできる(特徴あり) |
+* IIR (Infinite Impulse Response)
+  * 狭くできる(特徴あり)
+* FIR (Finite Impulse Response)
+  * 狭くできる(特徴あり)
 
 
 遷移域とは、図7の周波数特性の黄色範囲部分のことを指します<br>
@@ -171,11 +180,13 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 </div><br>
 
 
-|  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
-| :-: | :-: | :-: |
-| 計算量 | 少ない | 多い |
 
+* IIR (Infinite Impulse Response)
+  * 少ない
+* FIR (Finite Impulse Response)
+  * 多い
 
+  
 
 ##  設計法選択
 フィルタの設計には、数学で定義された設計規範があります。(らしい)<br>
