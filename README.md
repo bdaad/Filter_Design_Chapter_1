@@ -29,7 +29,7 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 <div align="center">
 
-![ex1](./img/ex1.png)
+![ex1](./img/ex1.png)<br>
 図1. 周波数特性と時系列グラフ
 </div><br>
 
@@ -63,13 +63,13 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 <div align="center">
 
-![周波数特性](./img/1.png)
+![周波数特性](./img/1.png)<br>
 図2. BPF(100~200Hz)の周波数特性
 </div><br>
 
 <div align="center">
 
-![遅延特性](./img/2.png)
+![遅延特性](./img/2.png)<br>
 図3. BPF(100~200Hz)の遅延
 </div><br>
 
@@ -84,14 +84,13 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 <div align="center">
 
-![z計算](./img/3.png)
+![z計算](./img/3.png)<br>
 図4. zのグラフ
 </div><br>
 
 <div align="center">
 
-![z計算](./img/4.png)
-<br>
+![z計算](./img/4.png)<br>
 図5. zの求め方(ChatGPT)
 </div><br>
 
@@ -108,7 +107,7 @@ Qとは、共振の鋭さを示すもので、Q値が高いとカットオフ周
 
 <div align="center">
 
-![Q](./img/5.png)
+![Q](./img/5.png)<br>
 図6. Q値
 </div><br>
 
@@ -128,7 +127,7 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 
 <div align="center">
 
-![Q](./img/8.png)
+![Q](./img/8.png)<br>
 図7. 遷移域とは
 </div><br>
 
@@ -137,14 +136,14 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 
 <div align="center">
 
-![Q](./img/6.png)
+![Q](./img/6.png)<br>
 図8. IIRフィルタの次数毎の周波数特性
 </div><br>
 
 
 <div align="center">
 
-![Q](./img/7.png)
+![Q](./img/7.png)<br>
 図9. FIRフィルタの次数毎の周波数特性
 </div><br>
 
