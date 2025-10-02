@@ -31,7 +31,7 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 ![ex1](./img/ex1.png)
 図1. 周波数特性と時系列グラフ
-</div>
+</div><br>
 
 
 
@@ -65,13 +65,13 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 ![周波数特性](./img/1.png)
 図2. BPF(100~200Hz)の周波数特性
-</div>
+</div><br>
 
 <div align="center">
 
 ![遅延特性](./img/2.png)
 図3. BPF(100~200Hz)の遅延
-</div>
+</div><br>
 
 
 #### 安定性
@@ -86,13 +86,13 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 ![z計算](./img/3.png)
 図4. zのグラフ
-</div>
+</div><br>
 
 <div align="center">
 
 ![z計算](./img/4.png)
 図5. zの求め方(ChatGPT)
-</div>
+</div><br>
 
 
 #### Q(共振の鋭さ)
@@ -109,7 +109,7 @@ Qとは、共振の鋭さを示すもので、Q値が高いとカットオフ周
 
 ![Q](./img/5.png)
 図6. Q値
-</div>
+</div><br>
 
 
 #### 遷移域の狭さ
@@ -129,7 +129,7 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 
 ![Q](./img/8.png)
 図7. 遷移域とは
-</div>
+</div><br>
 
 
 
@@ -138,14 +138,14 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 
 ![Q](./img/6.png)
 図8. IIRフィルタの次数毎の周波数特性
-</div>
+</div><br>
 
 
 <div align="center">
 
 ![Q](./img/7.png)
 図9. FIRフィルタの次数毎の周波数特性
-</div>
+</div><br>
 
 
 |  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
