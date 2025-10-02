@@ -91,6 +91,7 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 <div align="center">
 
 ![z計算](./img/4.png)
+<br>
 図5. zの求め方(ChatGPT)
 </div><br>
 
