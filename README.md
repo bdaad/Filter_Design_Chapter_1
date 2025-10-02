@@ -178,9 +178,9 @@ FIRで遷移域の狭くする場合、タップ数を増やす事で可能で�
 
 #### 計算量
 * IIR (Infinite Impulse Response)
-  * 少ない
+  * 少ない(リアルタイム向き)
 * FIR (Finite Impulse Response)
-  * 多い
+  * 多い(解析向き)
 
 
 #### 特徴まとめ
