@@ -52,7 +52,7 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 
 ### 特徴
 
-
+#### 位相
 |  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
 | :-- | :-: | :-: |
 | 位相 | 線形になりにくい | 線形になりやすい |
@@ -74,7 +74,7 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 </div>
 
 
-
+#### 安定性
 
 |  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
 | :-: | :-: | :-: |
@@ -94,6 +94,9 @@ dBから振幅の大きさに変換する式は、"振幅倍率 = 10^( dB値 / 2
 図5. zの求め方(ChatGPT)
 </div>
 
+
+#### Q(共振の鋭さ)
+
 |  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
 | :-: | :-: | :-: |
 | Q(共振の鋭さ) | 定義あり | 定義なし |
@@ -109,6 +112,7 @@ Qとは、共振の鋭さを示すもので、Q値が高いとカットオフ周
 </div>
 
 
+#### 遷移域の狭さ
 
 |  | IIR (Infinite Impulse Response) | FIR (Finite Impulse Response) |
 | :-: | :-: | :-: |
